@@ -1,4 +1,4 @@
 # Feux_de_Foret
-Dépôt de code du Projet Feux de Forêt pour DataScientest
-ATTENTION : Les notebooks 9 et 10, concernant la prédiction du nombre et de l'étendue des feux à différentes échelles, comportent une erreur. En effet, nous avions mal séparé la variable-cible des variables explicatives, ce qui a faussé les résultats. 
-Le notebook 11 contient les résultats de notre modèle, un RandomForestRegressor sélectionné parmi d'autres modèles et optimisé, ainsi que ses métriques pour chaque état. Ainsi, nous obtenons un résumé des états pour lesquels les variables explicatives dont nous disposons sont les plus déterminantes dans la prédiction du nombre de feux de forêt par mois et par comté. 
+Ce projet, effectué en groupe de 4, consistait en l'exploration ; le nettoyage ; l'analyse ; la datavisualisation d'un dataset contenant les données de 2 millions de feux de forêt déclarés sur le territoire des Etats-Unis entre 1992 et 2015. 
+Nous avons pour cela utilisé différentes librairies de Python : Pandas, Numpy, Matplotlib, Seaborn, Plotly, Plotly Express. 
+Par la suite, nous avons élaboré un modèle de prédiction des feux de forêt à partir de ces données, grâce à SciKit-Learn. 
